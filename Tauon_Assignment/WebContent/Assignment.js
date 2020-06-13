@@ -9,7 +9,6 @@ $.ajax({
 			
 			$.each(data, function(i,value){
 				
-  				/* $("#tblData").append("<tr><td>"+value.albumId+"</td><td>"+value.id+"</td><td>"+value.title+"</td><td>"+value.url+"</td><td>"+value.thumbnailUrl+"</td></tr>"); */
  				$("#divData").append("<div class='col-lg-3'><div class='thumbnail'><a href='#''> <img class='img-thumbnail'src='"+value.url+"' title='"+value.title+"'><br></a><span class='pname'>"+value.title+"</span></div></div>");
  				count = count + 1;
  	 		});
